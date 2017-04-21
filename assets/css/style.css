@@ -1,4 +1,160 @@
+*, body{
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
 /*section{
 
     font-family: 'Roboto', sans-serif;
 }*/
+.logo{
+  background-color: #E00109;
+  display: block;
+  width: 100%;
+  height: 84px;
+  padding-left: 180px;
+}
+.redes{
+  display: inline-block;
+  position: relative;
+  margin-left: 190px;
+}
+.forma{
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 7px;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+nav{
+  text-align: center;
+}
+
+ul{
+  background-color: #4D4D59;
+}
+
+li{
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/*div, section{
+  border: 2px solid;
+  border-color: black;
+}*/
+.contenedor{
+  width: 60rem;
+}
+
+.noticia{
+  display: inline-block;
+  margin: 10px;
+}
+
+.principal{
+  width: 560px;
+}
+
+.secundario{
+  width: 348px;
+  float: right;
+}
+
+.prin-color{
+  background-color: #333340;
+}
+
+.odebrecht{
+  width: 536px;
+  margin: 10px;
+}
+
+.noti-sub{
+  width: 260px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*estilos de imagenes*/
+.sprite {
+    background-image: url(../image/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-alcalde-de-chilca {
+    width: 243px;
+    height: 270px;
+    background-position: -5px -5px;
+}
+
+.sprite-alejandra-aramayo {
+    width: 312px;
+    height: 165px;
+    background-position: -258px -5px;
+}
+
+.sprite-anuncio {
+    width: 310px;
+    height: 86px;
+    background-position: -580px -5px;
+}
+
+.sprite-corea-del-norte- {
+    width: 312px;
+    height: 165px;
+    background-position: -900px -5px;
+}
+
+.sprite-logo {
+  width: 281px;
+  height: 49px;
+  background-position: -1222px -5px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.sprite-odebrecht {
+    width: 425px;
+    height: 250px;
+    background-position: -1513px -5px;
+}
+
+.sprite-senora {
+    width: 53px;
+    height: 84px;
+    background-position: -1948px -5px;
+}
